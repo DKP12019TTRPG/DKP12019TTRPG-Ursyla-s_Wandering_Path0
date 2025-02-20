@@ -1,0 +1,41 @@
+body {
+    font-family: serif; /* または他の落ち着いたフォント */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* ライトグレーの背景 */
+    color: #333; /* ダークグレーのテキストカラー */
+    line-height: 1.6;
+}
+
+header, footer, main {
+    max-width: 800px; /* コンテンツの最大幅 */
+    margin: 20px auto; /* 中央配置と上下マージン */
+    padding: 20px;
+    background-color: #fff; /* 白背景のコンテンツ領域 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*  হালকা ছায়া */
+}
+
+header {
+    background-color: rgb(119, 182, 10); /* 指定された緑色 */
+    color: #fff; /* ヘッダーテキストは白色 */
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #eee; /* 薄いグレーのフッター背景 */
+    font-size: 0.9em;
+}
